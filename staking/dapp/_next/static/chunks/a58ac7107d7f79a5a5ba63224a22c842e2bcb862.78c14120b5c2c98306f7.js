@@ -232,8 +232,8 @@
                 }
                 return e
             }
-            var w = "0xb52edb5cf2d88e78191f21b027f53d07f4ab7e5d",
-                N = "0xd768acb98bd756cfbdc4983dbe4230480a2c68d5",
+            var w = "0xf085B1471286Dd3405d291DC9734afd2F4C843aa",
+                N = "0xF2665A8954E5CA53Da8d20Ef190eCBb26D3196c7",
                 S = function(e) {
                     var t = Object(o.useState)(0),
                         n = t[0],
@@ -468,8 +468,10 @@
                                 className: "col-12 col-md-12 ",
                                 children: Object(r.jsx)(k, {
                                     active: 0 == S,
-                                    title: "Staking APY 50%",
-                                    subtitle: "Available for everyone",
+                                    title: "Staking APY 35%",
+                                    subtitle: "Available for everyone, Lock Duration-30 Days, Exit penalty-10%",
+                                    
+                                    
                                     onClick: function() {
                                         T(0)
                                     }
@@ -480,8 +482,8 @@
                                     loading: s,
                                     active: 1 == S,
                                     disabled: 0 == m,
-                                    title: "Staking APY 75%",
-                                    subtitle: m > 0 ? "You can use this pool because you have ".concat(m, " nfts") : "Not available for your account. Requires holding at least 1 $MING NFT",
+                                    title: "Staking APY 50%",
+                                    subtitle: m > 0 ? "You can use this pool because you have ".concat(m, " nfts") : "Not available for your account. Requires holding at least 1 $MING NFT,Lock Duration-30 Days, Exit penalty-10%",
                                     onClick: function() {
                                         m > 0 && T(1)
                                     }
@@ -529,7 +531,7 @@
                                             children: Object(r.jsxs)("div", {
                                                 className: "row",
                                                 children: [Object(r.jsx)("div", {
-                                                    className: "col-lg-8",
+                                                    className: "col-lg-12",
                                                     children: Object(r.jsxs)("div", {
                                                         className: "d-flex flex-column h-100",
                                                         children: [Object(r.jsx)("p", {
@@ -540,7 +542,7 @@
                                                             style: {
                                                                 color: "#fff"
                                                             },
-                                                            children: "STAKE $"
+                                                            children: "STAKE $MINGMONG"
                                                         }), Object(r.jsxs)(h.m, {
                                                             children: [Object(r.jsxs)(h.a, {
                                                                 children: [Object(r.jsxs)(h.c, {
@@ -579,7 +581,9 @@
                                                                         children: Object(r.jsxs)(h.f, {
                                                                             children: [se, "%"]
                                                                         })
+                                                                        
                                                                     })]
+                                                                    
                                                                 }), se > 0 && Object(r.jsxs)(h.i, {
                                                                     children: [Object(r.jsx)(h.t, {
                                                                         color: X,
